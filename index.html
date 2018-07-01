@@ -16,6 +16,16 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
+        <!--Mobile Navbar-->
+        <ul class="navbar-nav text-center mobile-command">
+            <li class="nav-item">
+                <button class="btn btn-outline-bear" type="button">Player</button>
+            </li>
+            <li class="nav-item">
+                <button class="btn btn-outline-bear" type="button">GM</button>
+            </li>
+        </ul>
+        
         <a class="navbar-brand" href="#">Honey Heist Helper</a>   
                 
         <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
@@ -53,28 +63,40 @@
             </ul>
         </div>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <!--Toggle button-->
+        <button class="navbar-toggler btn btn-outline-bear" type="button" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>    
 
+
         <div class="mobile-nav collapse" id="navbarCollapse">
-            <div class="flex">
+
+            <!--Tablet OnToggle-->
+            <div class="tablet-toggle">
                 <a class="btn btn-outline-bear" href="https://gshowitt.itch.io/honey-heist">Rules</a>                
                 
                 <div class="dropdown">
-                    <button type="button" class="btn btn-outline-heist dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More Info</button>
+                    <button type="button" class="btn btn-outline-bear dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More Info</button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="https://twitter.com/gshowitt">Follow the Author</a>
                         <a class="dropdown-item" href="https://geekandsundry.com/critical-role-one-shot-trinkets-honey-heist/">As played on Critical Role</a>
                         <a class="dropdown-item" href="https://www.youtube.com/watch?v=OpqPFqxdTmo">GM Tips on 1-page RPGs</a>
                     </div>
                 </div>
-                <button class="btn btn-outline-bear" type="button">Build-A-Bear</button>
-                <button class="btn btn-outline-bear" type="button">Plan your Convention!</button>
+
+                <button class="btn btn-outline-heist" type="button">Build-A-Bear</button>
+                <button class="btn btn-outline-heist" type="button">Plan your Convention!</button>
             </div>
+
+        <!--Mobile OnToggle-->
+            <div class="mobile-toggle">
+                <a class="btn btn-outline-bear" href="https://gshowitt.itch.io/honey-heist">Rules</a>                
+                <a class="btn btn-outline-bear" href="https://twitter.com/gshowitt">Follow the Author</a>
+                <a class="btn btn-outline-bear" href="https://geekandsundry.com/critical-role-one-shot-trinkets-honey-heist/">As played on Critical Role</a>
+                <a class="btn btn-outline-bear" href="https://www.youtube.com/watch?v=OpqPFqxdTmo">GM Tips on 1-page RPGs</a>
+            </div>
+
         </div>
-
-
     </nav>
 
 </body>
