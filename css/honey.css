@@ -4,6 +4,7 @@
     --colour3: #2E3532;
     --colour4: #EDEAE0;
     --colour5: #273043;
+    --colour6: #FCF5C7;
 }
 
 .btn-outline-bear {
@@ -151,4 +152,17 @@
     .navbar-brand {
         display: none;
     }
+}
+
+.fullscreenbody {
+    background-color: var(--colour6);
+    width: 100%;
+    height: 100%;
+
+    padding-top: 50px;
+}
+
+.card-deck {
+    display: none;
+    width: 90%;
 }
