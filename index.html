@@ -15,19 +15,24 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#">Honey Heist Helper</a>   
+                
         <div class="navbar-collapse collapse w-100 dual-collapse2 order-1 order-md-0">
             <ul class="navbar-nav ml-auto text-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://gshowitt.itch.io/honey-heist">Rules</a>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More info</a>
+                    <div class="btn-group dropleft">
+                        <button type="button" class="btn btn-outline-heist dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More Info</button>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="https://twitter.com/gshowitt">Follow the Author</a>
                         <a class="dropdown-item" href="https://geekandsundry.com/critical-role-one-shot-trinkets-honey-heist/">As played on Critical Role</a>
                         <a class="dropdown-item" href="https://www.youtube.com/watch?v=OpqPFqxdTmo">GM Tips on 1-page RPGs</a>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-heist" href="https://gshowitt.itch.io/honey-heist">Rules</a>
+                </li>
+
             </ul>
         </div>
         
@@ -35,9 +40,6 @@
             <a class="mx-auto" href="#">
                 <img src="img/honeypot.png" width="120" style="margin-top:50px" class="rounded-circle">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
         </div>
         
         <div class="navbar-collapse collapse w-100 dual-collapse2 order-2 order-md-2">
@@ -45,12 +47,34 @@
                 <li class="nav-item">
                     <button class="btn btn-outline-bear" type="button">Build-A-Bear</button>
                 </li>
-                &nbsp;
                 <li class="nav-item">
                     <button class="btn btn-outline-bear" type="button">Plan your Convention!</button>
                 </li>
             </ul>
         </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>    
+
+        <div class="mobile-nav collapse" id="navbarCollapse">
+            <div class="flex">
+                <a class="btn btn-outline-bear" href="https://gshowitt.itch.io/honey-heist">Rules</a>                
+                
+                <div class="dropdown">
+                    <button type="button" class="btn btn-outline-heist dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More Info</button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://twitter.com/gshowitt">Follow the Author</a>
+                        <a class="dropdown-item" href="https://geekandsundry.com/critical-role-one-shot-trinkets-honey-heist/">As played on Critical Role</a>
+                        <a class="dropdown-item" href="https://www.youtube.com/watch?v=OpqPFqxdTmo">GM Tips on 1-page RPGs</a>
+                    </div>
+                </div>
+                <button class="btn btn-outline-bear" type="button">Build-A-Bear</button>
+                <button class="btn btn-outline-bear" type="button">Plan your Convention!</button>
+            </div>
+        </div>
+
+
     </nav>
 
 </body>
