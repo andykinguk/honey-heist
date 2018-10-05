@@ -173,6 +173,11 @@
     width: 30%;
 }
 
+.card-img-top {
+    height: 120px;
+    object-fit: cover;
+}
+
 .card-long {
     height: 90%;
     width: 33%;
